@@ -37,18 +37,14 @@ public class Main {
     }
 
     private static void printAllVipGuests() {
-
-        for (String code :
-                vipGuests) {
-            System.out.println(code);
+        for (int i = vipGuests.size() - 1; i >= 0; i--) {
+            System.out.println(vipGuests.get(i));
         }
     }
 
     private static void printAllRegularGuests() {
-
-        for (String code :
-                regularGuests) {
-            System.out.println(code);
+        for (int i = regularGuests.size() - 1; i >= 0; i--) {
+            System.out.println(regularGuests.get(i));
         }
     }
 
