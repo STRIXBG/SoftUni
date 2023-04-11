@@ -1,18 +1,18 @@
 import java.util.*;
 
 public class Main {
-    static HashMap<String, Long> phoneBook = new HashMap<>();
+    static HashMap<String, String> phoneBook = new HashMap<>();
 
     private static void showPhoneAndName(String name) {
         if(phoneBook.containsKey(name)) {
-            long phoneNum = phoneBook.get(name);
-            System.out.printf("%s -> %d\n", name, phoneNum);
+            String phoneNum = phoneBook.get(name);
+            System.out.printf("%s -> %s\n", name, phoneNum);
         } else {
             System.out.printf("Contact %s does not exist.\n", name);
         }
     }
 
-    private static void addPhone(String name, long phoneNum) {
+    private static void addPhone(String name, String phoneNum) {
         phoneBook.put(name, phoneNum);
     }
 
@@ -22,7 +22,7 @@ public class Main {
         while(!Objects.equals(input, "search")) {
             String[] line = input.split("-");
             String name = line[0];
-            long phoneNum = Long.parseLong(line[1]);
+            String phoneNum = line[1];
             addPhone(name, phoneNum);
             input = scanner.nextLine();
         }
