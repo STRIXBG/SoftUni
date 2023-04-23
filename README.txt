@@ -1,5 +1,5 @@
 
-<h1>SoftUni Exercsies</h1>
+<h1 align="center">Softuni Exercsises</h1>
 <h4>This repository contains my solutions for all exercises I have completed at SoftUni.</h4>
 
 
