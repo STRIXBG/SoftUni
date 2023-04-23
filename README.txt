@@ -1,7 +1,6 @@
 
-# SoftUni Exercsies
-
-This repository contains my solutions for all exercises I have completed at SoftUni.
+<h1>SoftUni Exercsies</h1>
+<h4>This repository contains my solutions for all exercises I have completed at SoftUni.</h4>
 
 
 
