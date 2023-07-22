@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Solution {
     // x <= n
-    // available_transactions <= max_transactions
+    // max_transactions > available_transactions
     int solve(int n, int x) {
         if (x == 0 || n == x) {
             return 1;
