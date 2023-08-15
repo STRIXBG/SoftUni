@@ -1,7 +1,5 @@
 
-## Решения на задачи за онлайн платформата Softuni Judge
-
-# Solutions for Softuni Judge problems
+# Решения на задачи за онлайн платформата Softuni Judge (Solutions for Softuni problems)
 
 ## Used programming languages:
  🔭 Back End: Java, C#, Python
